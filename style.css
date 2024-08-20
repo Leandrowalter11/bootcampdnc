@@ -166,3 +166,96 @@ input[type="submit"]{
     cursor: pointer;
 
 }
+
+footer{
+    width: 100%;
+    background-color: #0C70F2;
+
+}
+
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+   
+
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+
+}
+footer h5{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: #303030;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+
+footer ul li{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+footer ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color:#CCCCCC;
+}
+
+.endereço{
+    font-size: 18px;
+    font-weight: 600;
+    color:#FFFFFF;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.linha2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.linha2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+ 
+}
+
+.linha2 a:first-child{
+    border-right: 3px solid white;
+}
+
+.linha2 a:hover{
+    color: #CCCCCC;
+}
+
